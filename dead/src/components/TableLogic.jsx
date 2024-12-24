@@ -73,7 +73,7 @@ const TableLogic = () => {
     <input type="text"  className="w-[80%] h-10" placeholder="Enter Table " value={tt} onChange={(e)=> setTt(e.target.value)}/>
 
     </div>
-    <div className="w-[40%] h-[80%] bg-yellow-300 flex flex-col items-center">
+    <div className="w-[100%] md:w-[40%] h-[80%] bg-yellow-300 flex flex-col items-center"> 
         <h1 className=" text-3xl font-bold p-2 w-72 ">{tt} X {shuffledList[count]}</h1>
         <h1 className=" text-3xl font-bold  w-72 h-10">{tv}</h1>
         <div className="grid grid-cols-3 gap-2 w-72">
